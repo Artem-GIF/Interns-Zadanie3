@@ -29,6 +29,6 @@ const apply=(N,FUN,VALUE)=> { // n- колличество повторов фу
 if (N === 0) {
 return VALUE;
 }
-const NewValue = fun(value);
+const NewValue = fun(VALUE);
 return apply(N,FUN,NewValue);
 }
