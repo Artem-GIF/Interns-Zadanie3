@@ -2,8 +2,8 @@
 function IsPalindrome(STR) {
 let  MIDDLE = Math.floor(STR.length / 2);
 for (let i = 0; i < MIDDLE; i++)
-if (STR.length == 2)
-{if (STR[i] !== STR[STR.length - i - 1])
+if (STR.length === 2)
+{if (STR[i] != STR[STR.length - i - 1])
 {return false;}
 return true;}
 }
@@ -13,14 +13,14 @@ return true;}
 function substr(STR,K,N) { // k-первый элемент,n- колличество символов
 let SUB='';
 if (K<0)
-{K==0;}
+{K===0;}
 if (N>STR.lenght)
-{N==STR.lenght-1;}
+{N===STR.lenght-1;}
 if (STR !='' || K !='' && N !='')
 {for(i=K;i<N;i++)
 {SUB+=STR[i];}}
 else
-{SUB==STR;}
+{SUB===STR;}
 return SUB;}
 
 
