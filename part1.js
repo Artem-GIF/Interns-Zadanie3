@@ -1,4 +1,3 @@
-//1
 IsPalindrome = STR => {
 let i = 0;
 while ( i < Math.floor(STR.length / 2)) {
